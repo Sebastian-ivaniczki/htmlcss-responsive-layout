@@ -65,6 +65,14 @@ button{
     color: #fff;
     background-color: #0084FD;
     padding: 5px 35px;
+   
+}
+
+.benefit-btn{
+    background-color: #9792E4;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 20px 0;
 }
 /* header */
 
@@ -131,11 +139,6 @@ li > a{
     margin-bottom: 20px;
 }
 
-.benefits{
-    text-align: center;
-    color: #fff;
-    margin: 20px 20px;
-} 
 
 .big-col{
     width: 100%;
@@ -196,7 +199,7 @@ li > a{
 
 .strategi-description{
     color: #fff;
-
+    
     padding-top: 50px;
 }
 
@@ -231,10 +234,10 @@ li > a{
     height: 50px;
     border-radius: 50%;
     margin: 40px 0px;
-
+    
     text-align: center;
     line-height: 50px;
-
+    
 }
 
 /* partners and testimonials */
@@ -276,7 +279,33 @@ li > a{
     margin-top: 30px;
 }
 
- /* footer */
+/* benefits of working with us */
+.benefits-title{
+    text-align: center;
+    color: #fff;
+    margin: 20px 20px;
+} 
+
+.benefits-content{
+    padding: 10px 20px;
+}
+
+.benefit-numeration{
+    color: #9792E4;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.benefit-tipe{
+    color: #9792E4;
+    margin: 20px 0px;
+}
+ .benefit-description{
+    color: #6A8296;
+    line-height: 25px;
+ }
+
+/* footer */
 .foot-top{
     text-align: center;
 }
@@ -292,7 +321,7 @@ li > a{
     .col{
         width: 50%;
     }
-
+    
     .app-info > .col{
         width: 33%;
         
