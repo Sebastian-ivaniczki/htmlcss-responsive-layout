@@ -59,6 +59,13 @@ button{
 .nav-btn{
     margin-left: 10px;
 }
+
+.app-store{
+    font-size: 20px;
+    color: #fff;
+    background-color: #0084FD;
+    padding: 5px 35px;
+}
 /* header */
 
 header{
@@ -139,6 +146,43 @@ li > a{
     width: 100%;
     min-height: 200px;
 }
+
+/* Demo app info */
+
+.demo-phone-txt{
+    padding: 20px 45px;
+}
+
+.demo-title{
+    color: #0586FD;
+    font-size: 25px;
+    margin: 20px 0;
+}
+.app-info-txt{
+    margin: 20px 0;
+    color: #6A8296;
+    line-height: 25px;
+}
+
+.demo-phone-img{
+    width: 100%;
+    text-align: center;
+}
+
+.demo-phone-img > img{
+    width: 60%;
+}
+
+.app-info{
+    text-align: center;
+    padding: 20px 45px;
+}
+
+.demo-icon{
+    font-size: 60px;
+    color: #0084FD;
+}
+
  /* footer */
 .foot-top{
     text-align: center;
