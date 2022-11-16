@@ -158,3 +158,23 @@ body{
     width: 70%;
    }
 }
+
+/* dekstop size */
+
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 80%;
+    }
+
+    .benefits > .col{
+        width: calc(100% / 3);
+    }
+
+    .flex-direction{
+        flex-direction: row;
+    }
+
+    .strategi-planing{
+        width: 50%;
+    }
+}
