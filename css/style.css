@@ -80,6 +80,7 @@ body{
 
 .col{
     width: 100%;
+    padding: 0 10px;
 }
 
 .card{
@@ -103,7 +104,7 @@ body{
     width: 100%;
     min-height: 200px;
 }
-
+ /* footer */
 .foot-top{
     text-align: center;
 }
@@ -111,4 +112,49 @@ body{
 .foot-bootom{
     text-align: center;
     color: #fff;
+} 
+
+/* tablet sizing */
+
+@media screen and (min-width:768px) {
+    .col{
+        width: 50%;
+    }
+
+    .app-info > .col{
+        width: 33%;
+        
+    }
+
+    .app-info{
+        margin-right: -5px;
+    }
+
+    .col.demo-app{
+        width: 66%;
+    }
+
+   .strategi-planing{
+    width: 100%;
+   }
+   .partners{
+    flex-direction: column;
+   }
+
+   .partners-intro{
+    width: 100%;
+   } 
+
+   .about-us{
+    flex-direction: row;
+   }
+
+   .smal-col{
+    width: 30%;
+
+   }
+
+   .big-col{
+    width: 70%;
+   }
 }
