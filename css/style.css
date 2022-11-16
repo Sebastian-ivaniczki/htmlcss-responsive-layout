@@ -237,6 +237,45 @@ li > a{
 
 }
 
+/* partners and testimonials */
+
+.testimonial-card{
+    text-align: center;
+    padding-top: 40px;
+}
+.testimonial-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #9792E4;
+}
+
+.partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 35px 70px;
+}
+
+.testimonial-img{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.testimonial-img > img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.testimonial-name{
+    margin-top: 30px;
+}
+
  /* footer */
 .foot-top{
     text-align: center;
@@ -270,11 +309,11 @@ li > a{
    .strategi-planing{
     width: 100%;
    }
-   .partners{
+   .testimonial{
     flex-direction: column;
    }
 
-   .partners-intro{
+   .testimonial-intro{
     width: 100%;
    } 
 
