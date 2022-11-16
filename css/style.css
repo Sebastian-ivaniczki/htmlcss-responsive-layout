@@ -183,6 +183,60 @@ li > a{
     color: #0084FD;
 }
 
+/* strategi planing */
+
+.big-img{
+    width: 80%;
+    margin: 60px auto;
+}
+
+.big-img > img{
+    width: 100%;
+}
+
+.strategi-description{
+    color: #fff;
+
+    padding-top: 50px;
+}
+
+.strategi-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.strategi-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.app-development{
+    width: 80%;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.app-development > img{
+    width: 100%;
+}
+
+.app-development > h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.arow-down{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 40px 0px;
+
+    text-align: center;
+    line-height: 50px;
+
+}
+
  /* footer */
 .foot-top{
     text-align: center;
