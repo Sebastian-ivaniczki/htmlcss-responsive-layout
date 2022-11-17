@@ -73,6 +73,14 @@ button{
     color: #fff;
     padding: 10px 15px;
     margin: 20px 0;
+} 
+
+.get-started-btn{
+    color: #9792E4;
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 15px 40px;
+    font-size: 20px;
 }
 
 
@@ -183,7 +191,7 @@ li > a{
 
 .app-info{
     text-align: center;
-    padding: 20px 45px;
+    
 }
 
 .demo-icon{
@@ -217,6 +225,7 @@ li > a{
     flex-direction: column;
     align-items: center;
     margin-bottom: 60px;
+    border-radius: 25px;
 }
 .app-development{
     width: 80%;
@@ -340,16 +349,39 @@ li > a{
  }
 
 
-/* footer */
+/* footer top */
 .foot-top{
     text-align: center;
+    color: #fff;
+    padding:35px 0 ;
     
 }
+
+.download-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.foot-title{
+    margin-bottom: 20px;
+    font-size: 45px;
+    color: #FDC15F;
+}
+
+.foot-list > li{
+    margin-left: 27px;
+}
+
+/* footer bottom */
+
 
 .foot-bootom{
     text-align: center;
     color: #fff;
+
+    padding:35px 0 ;
 } 
+
 
 /* tablet sizing */
 
@@ -413,6 +445,19 @@ li > a{
 /* dekstop size */
 
 @media screen and (min-width:992px){
+    /* header */
+    .nav-left{
+        flex-basis: 50%;
+    }
+    .nav-right{
+        display: flex;
+        justify-content: flex-end;
+    }  
+    
+    .fa-bars{
+        display: none;
+    }
+    
     .container{
         max-width: 80%;
     }
@@ -424,11 +469,17 @@ li > a{
     .flex-direction{
         flex-direction: row;
     }
-
+ /* strategi planing */
     .strategi-planing{
         width: 50%;
+        margin-bottom: 80px;
     }
-
+    .strategi-card{
+        width: 70%;
+        position: relative;
+        top: 105px;
+        left: 90px;
+    }
     .dekstop-flex{
         display: flex;
     }
@@ -443,9 +494,9 @@ li > a{
     }
 
     .phone-png{
-        width: 100%;
+       
         position: absolute;
         bottom: 0;
-        right: 10px;
+        transform: translate(-50% , 0);
     }
 }
