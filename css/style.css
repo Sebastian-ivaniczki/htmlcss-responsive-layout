@@ -133,12 +133,12 @@ li > a{
 
 .col{
     width: 100%;
-    padding: 0 10px;
+    padding: 1rem 10px;
 }
 
 .card{
     border-radius: 25px;
-    min-height: 100px;
+    min-height: 100%;
     margin-bottom: 20px;
 }
 
@@ -158,7 +158,7 @@ li > a{
 /* Demo app info */
 
 .demo-phone-txt{
-    padding: 20px 45px;
+    padding: 10px 25px;
 }
 
 .demo-title{
@@ -177,7 +177,7 @@ li > a{
     text-align: center;
 }
 
-.demo-phone-img > img{
+.phone-png{
     width: 60%;
 }
 
@@ -374,6 +374,8 @@ li > a{
    .strategi-planing{
     width: 100%;
    }
+
+   /* testimonials */
    .testimonial{
     flex-direction: column;
    }
@@ -382,6 +384,15 @@ li > a{
     width: 100%;
    } 
 
+   .partners{
+    flex-direction: row;
+   }
+
+   .testimonial-description{
+    width: 70%;
+   }
+
+/* about us */
    .about-us{
     display: flex;
    }
@@ -393,12 +404,15 @@ li > a{
 
    .big-col{
     width: 70%;
+    padding-right: 5rem;
    }
+
+   
 }
 
 /* dekstop size */
 
-@media screen and (min-width:1200px){
+@media screen and (min-width:992px){
     .container{
         max-width: 80%;
     }
@@ -413,5 +427,25 @@ li > a{
 
     .strategi-planing{
         width: 50%;
+    }
+
+    .dekstop-flex{
+        display: flex;
+    }
+
+    .demo-phone-txt{
+        width: 60%;
+    }
+
+    .demo-phone-img{
+        position: relative;
+        width: 40%;
+    }
+
+    .phone-png{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 10px;
     }
 }
