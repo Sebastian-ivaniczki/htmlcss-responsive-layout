@@ -167,7 +167,7 @@ li > a{
 /* Demo app info */
 
 .demo-phone-txt{
-    padding: 10px 25px;
+    padding: 0px 25px;
 }
 
 .demo-title{
@@ -184,6 +184,7 @@ li > a{
 .demo-phone-img{
     width: 100%;
     text-align: center;
+    padding-top: 10px;
 }
 
 .phone-png{
